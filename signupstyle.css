@@ -1,0 +1,166 @@
+*{ padding: 0; margin: 0; box-sizing: border-box;}
+
+
+body {
+    /* background-color: rgba(0, 0, 0, 0.959); */
+    background: linear-gradient(90deg, #1e4d92, #00c6a7);
+    color: white;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin: 15px 70px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.main-div {
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+/* --------------HEADING------------- */
+
+.fh1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* ---------------EMAIL--------------- */
+
+.email h2 {
+    margin: 40px 100px 10px 0px;
+}
+
+.email input {
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    background: linear-gradient(to top, #09e9c7,white );
+    color: white;
+    box-shadow: 4px 7px 15px #1e4d92;
+    outline: 0px;
+}
+
+.userem:hover {
+    background: linear-gradient(to top,white,#09e9c7 );
+}
+
+
+
+
+/* ---------------PASSWORD-------------- */
+
+.password h2 {
+    margin: 25px 100px 10px 0px;
+}
+
+
+.password input {
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #09e9c7,white );
+    color: white;
+    box-shadow: 4px 7px 15px #1e4d92;
+    outline: 0px;
+}
+
+
+.userps:hover {
+    background: linear-gradient(to bottom,white,#09e9c7 );
+}
+
+
+/* -------------AGREEMENT-------------- */
+
+.box {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* -------------SIGNUP BTN-------------- */
+
+.signin-btn button{
+    margin: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius: 30px;
+    padding: 12px 30px;
+    color: white;
+    box-shadow: 4px 7px 10px #1e4d92;
+    outline: 0px;
+}
+
+/* -------------OR------------------- */
+
+.or {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* ----------lastpara-------------- */
+
+.lastpara {
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+/* --------------signin-btm------------ */
+
+.signup-btn button{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius: 30px;
+    padding: 12px 30px;
+    color: white;
+    box-shadow: 4px 7px 10px #1e4d92;
+    outline: 0px;
+}
+
+
+
+/* ///////////////Responsive///////////// */
+
+@media (max-width: 479px) {
+
+    .main-div{
+        text-align: center;
+        margin: 30px;
+    }
+
+    .email h2{
+        margin: 10px 20px;
+        /* text-align: center;
+        justify-contant:center;
+        display: flex;
+        flex-direction: column; */
+    }
+
+    .email input{
+        width: auto;
+    }
+
+    .password h2{
+        margin: 10px 20px;
+    }
+
+    .password input{
+        width: auto;
+    }
+
+    .signup-btn button{
+        margin-bottom: 15px;
+    }
+}
